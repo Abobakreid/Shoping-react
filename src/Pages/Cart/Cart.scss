@@ -1,0 +1,35 @@
+.carts {
+  padding: 50px 0;
+  .container {
+    width: 50%;
+    @media (max-width: 991px) {
+      width: 90%;
+    }
+  }
+  .head {
+    border-bottom: 1px solid #aaa;
+    padding: 8px 0;
+  }
+  .card {
+    padding: 8px 0;
+    border-bottom: 1px solid #aaa;
+    align-items: center;
+    .c_img {
+      img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+      }
+    }
+    .del {
+      cursor: pointer;
+    }
+  }
+  .total {
+    padding: 8px;
+    span {
+      display: block;
+      padding: 6px 0;
+    }
+  }
+}

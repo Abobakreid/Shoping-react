@@ -1,0 +1,43 @@
+.shop_search {
+  padding: 40px 0;
+  background-color: #e8e8e8;
+  .container {
+    width: 60%;
+    align-items: center;
+    @media (max-width: 991px) {
+      width: 90%;
+    }
+    gap: 20px 0;
+  }
+  .s_input {
+    width: 60%;
+    input {
+      display: block;
+      width: 100%;
+      padding: 8px;
+      outline: none;
+      box-shadow: 0 0 10px 0 rgb(166, 165, 165);
+    }
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+  }
+  .s_option {
+    width: 35%;
+    #select {
+      padding: 8px;
+      width: 100%;
+      box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+      outline: none;
+      border: none;
+      background: rgb(255, 255, 255);
+      &:hover {
+        background: rgb(249, 249, 250);
+        outline: none;
+      }
+    }
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+  }
+}

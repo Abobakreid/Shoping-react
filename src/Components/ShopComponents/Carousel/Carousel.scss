@@ -1,0 +1,19 @@
+.Shop_carousel {
+  padding: 20px;
+  background: url("../../../assets/3.avif") fixed center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 67px);
+  .c_text {
+    color: white;
+    margin-top: 40vh;
+    text-transform: uppercase;
+    h2 {
+      font-size: 40px;
+      font-weight: bold;
+    }
+    p {
+      font-weight: bold;
+    }
+  }
+}

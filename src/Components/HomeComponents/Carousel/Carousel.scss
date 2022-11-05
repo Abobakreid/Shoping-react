@@ -1,0 +1,39 @@
+.carousel {
+  background: url("./../../../assets/1.avif") center center no-repeat fixed;
+  height: calc(100vh - 67px);
+  background-size: cover;
+  .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    .cont {
+      color: white;
+      h1 {
+        margin: 0;
+        font-size: 50px;
+      }
+      p {
+        font-size: 30px;
+      }
+    }
+    .c_btn {
+      .shop {
+        width: 150px;
+        text-align: center;
+        padding: 10px 20px;
+        background-color: white;
+        color: $mainColor;
+        display: inline-block;
+        transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        &:hover {
+          background-color: $mainColor;
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.about {
+  margin: 50px 0;
+  .container {
+    width: 80%;
+    @media (max-width: 991px) {
+      width: 90%;
+    }
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 25px 10px;
+    @media (min-width: 2000px) {
+      display: grid;
+      grid-template-columns: repeat(
+        auto-fill,
+        minmax(270px, calc((100% - 6%) / 4))
+      );
+      gap: 2%;
+    }
+  }
+  .a_card {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    align-items: center;
+    gap: 20px;
+    .card_detail {
+      h2 {
+        margin: 0;
+      }
+    }
+  }
+  .a_card:nth-last-of-type(even) {
+    background-color: rgb(245, 145, 182);
+  }
+  .a_card:nth-last-of-type(odd) {
+    background-color: rgb(148, 145, 245);
+  }
+}
