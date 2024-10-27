@@ -6,7 +6,7 @@ const Shop = () => {
   const [search, setSearch] = useState("");
   return (
     <div className="shop">
-      <ShopCarousel />
+      <ShopCarousel />l
       <ShopSearch setCategory={setCategory} setSearch={setSearch} />
       <ShopCards category={category} search={search} />
     </div>
